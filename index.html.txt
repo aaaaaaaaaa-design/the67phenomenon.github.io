@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 6–7 Phenomenon</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 600px; margin: 50px auto; line-height: 1.6; padding: 0 20px; }
+  h1 { text-align: center; font-size: 2em; }
+  h2 { font-size: 1.2em; color: #333; }
+  ul { list-style: disc; margin-left: 20px; }
+  input[type=email] { width: 100%; padding: 10px; margin: 10px 0; }
+  button { padding: 10px 20px; background: black; color: white; border: none; cursor: pointer; }
+  button:hover { background: #444; }
+  footer { font-size: 0.8em; text-align: center; color: #666; margin-top: 40px; }
+</style>
+</head>
+<body>
+<h1>The 6–7 Phenomenon</h1>
+<h2>A book about patterns you were never meant to notice</h2>
+
+<p>Some sequences feel natural. Others feel inevitable. But what if inevitability is learned?</p>
+
+<h2>What You’ll Discover:</h2>
+<ul>
+  <li>Why completion feels strangely unnatural at six</li>
+  <li>How repetition and progression influence attention more than belief</li>
+  <li>Why modern systems no longer need force to persuade</li>
+  <li>How patterns migrate from architecture into thought</li>
+  <li>And why noticing them changes everything</li>
+</ul>
+
+<h2>Get the First Chapter Before Release</h2>
+<form>
+  <input type="email" placeholder="Enter your email" required>
+  <button type="submit">Get Early Access</button>
+</form>
+
+<footer>
+<p>This is a work of speculative nonfiction. It asks what you notice, not what to believe.</p>
+</footer>
+</body>
+</html>
