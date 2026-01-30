@@ -43,16 +43,7 @@
       padding: 30px;
       margin-top: 40px;
       border: 1px solid #2a2a2a;
-    }
-    input[type="email"] {
-      width: 100%;
-      padding: 12px;
-      font-size: 1em;
-      margin-bottom: 15px;
-      border: none;
-      background: #0f0f0f;
-      color: #fff;
-      border-bottom: 1px solid #444;
+      text-align: center;
     }
     input[type="submit"] {
       background: #ffffff;
@@ -71,6 +62,9 @@
       margin-top: 60px;
       font-size: 0.75em;
       color: #777;
+    }
+    a input[type="submit"] {
+      display: inline-block;
     }
   </style>
 </head>
@@ -194,10 +188,10 @@
       Enter your email to receive excerpts, release information,
       and archived material related to the project.
     </p>
-    <form>
-      <input type="email" placeholder="you@example.com" required>
+    <!-- Buttondown hosted signup -->
+    <a href="https://buttondown.email/topcatandtopdog" target="_blank">
       <input type="submit" value="Notify me">
-    </form>
+    </a>
   </div>
 
   <p class="small">
