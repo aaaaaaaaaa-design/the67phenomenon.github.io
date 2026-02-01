@@ -44,16 +44,24 @@
       padding: 30px;
       margin-top: 40px;
       border: 1px solid #2a2a2a;
-      text-align: center;
     }
-    .notify-button {
+    input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      font-size: 1em;
+      margin-bottom: 15px;
+      border: none;
+      background: #0f0f0f;
+      color: #fff;
+      border-bottom: 1px solid #444;
+    }
+    input[type="submit"] {
       background: #ffffff;
       color: #000;
-      padding: 12px 26px;
+      padding: 12px 20px;
       font-size: 1em;
       border: none;
       cursor: pointer;
-      margin-top: 10px;
     }
     .small {
       font-size: 0.85em;
@@ -64,7 +72,6 @@
       margin-top: 60px;
       font-size: 0.75em;
       color: #777;
-      text-align: center;
     }
   </style>
 </head>
@@ -76,7 +83,7 @@
   <h1>The 6–7 Phenomenon</h1>
 
   <p>
-    Every era believes it is immune to manipulation.<br>
+    Every era believes it is immune to manipulation.  
     History suggests otherwise.
   </p>
 
@@ -89,37 +96,6 @@
 
   <p>
     The pattern is known—informally—as <em>6–7</em>.
-  </p>
-
-  <div class="divider"></div>
-
-  <h2>What this is</h2>
-
-  <p>
-    This project documents a <strong>fictional exploration</strong> of the origins,
-    symbolism, and modern re-emergence of the 6–7 phenomenon.
-  </p>
-
-  <p>
-    It traces imagined links between ancient ritual structures,
-    early mathematical mysticism, and contemporary methods of influence.
-    No single claim stands alone.
-    The concern lies in the repetition.
-  </p>
-
-  <h2>Why it matters</h2>
-
-  <p>
-    In the modern age, influence no longer requires force.
-    It requires familiarity.
-    Repetition.
-    Symbols that appear harmless until they are everywhere.
-  </p>
-
-  <p>
-    The book asks a simple question:
-    <br><br>
-    <strong>If this is only fiction, why does it align so neatly with reality?</strong>
   </p>
 
   <div class="divider"></div>
@@ -143,25 +119,26 @@
   <p>
     Internal correspondence from this period avoids moral language entirely.
     Instead, it favours operational terms: uptake, retention, normalisation.
-    Nowhere does it ask whether influence should be exerted—only whether it can be measured.
   </p>
 
   <p>
-    Those in positions of authority did not need to invent a tool of control.<br>
+    Those in positions of authority did not need to invent a tool of control.
+    <br>
     They only needed to recognise one.
   </p>
 
   <p>
-    The final note in the margin of one surviving document reads simply:
+    <em>“At scale, distinction between influence and governance collapses.”</em>
   </p>
 
-  <p><em>“At scale, distinction between influence and governance collapses.”</em></p>
+  <div class="divider"></div>
 
-  <p>The page ends there.</p>
+  <h2>Read before you dismiss it</h2>
 
   <p>
-    <strong>The next section was never released publicly.</strong><br>
-    Enter your email to be notified when the archive is opened.
+    This is a work of fiction.
+    It does not tell you what to think.
+    It simply presents a pattern and asks whether coincidence is the only explanation.
   </p>
 
   <div class="email-box">
@@ -171,22 +148,18 @@
       and archived material related to the project.
     </p>
 
-    <a href="https://buttondown.email/topcatandtopdog" target="_blank">
-      <button class="notify-button">Notify me</button>
-    </a>
-  </div>
-
-  <p class="small">
-    This work is presented as fiction.
-    Any resemblance to real events, systems, or methods of influence
-    is left to the interpretation of the reader.
-  </p>
-
-  <footer>
-    © The 6–7 Phenomenon
-  </footer>
-
-</div>
-
-</body>
-</html>
+    <!-- BUTTONDOWN FORM -->
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/topcatandtopdog"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/topcatandtopdog', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <input
+        type="email"
+        name="email"
+        placeholder="you@example.com"
+        required
+      >
+      <input type="submit" value="Notify me">
